@@ -77,8 +77,9 @@ h1 { font-size: 40px;
 .gallery-image img { width: 300px;
                      height:300px;}
 /* responsive */
-@media only screen and (max-width:500px) {
-        .footballer img {width: 100%;}
+@media only screen and (max-width:400px) {
+        .footballer img {width: 100%;
+                         margin-left: 10px;}
         .page-header,.player-identity,.highlight-gallery,.album {
                       grid-template-columns: repeat(1,1fr);
                       flex-direction: column;}
